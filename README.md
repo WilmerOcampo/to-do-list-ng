@@ -1,3 +1,44 @@
+# Tarea Fácil - To-Do List
+
+Gestión de tareas a nivel empresarial sin fricciones.
+
+## Características
+
+- Designar tareas
+- Marcar como completado
+
+## Capturas
+
+* ### Pantalla de Inicio
+
+![Pantalla de Inicio](src/assets/screenshots/index.png)
+
+* ### Pantalla de Asignar Tarea
+
+![Pantalla de Perfil](src/assets/screenshots/assign-task.png)
+
+## Instalación y Ejecución
+
+### Pasos:
+
+1. **Clonar el repositorio**:
+    ```bash
+   git clone https://github.com/WilmerOcampo/to-do-list-ng.git
+   cd to-do-list-ng
+   ```
+
+2. **Instalar las dependencias**:
+    ```bash
+    npm install
+    ```
+
+3. **iniciar la aplicación**:
+    ```bash
+    npm start
+    ```
+
+#
+
 # ToDoListNg
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
