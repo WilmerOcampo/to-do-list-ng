@@ -1,14 +1,8 @@
 import {Component} from '@angular/core';
-import {RouterOutlet} from '@angular/router';
-import {UserComponent} from "./user/user.component";
-import {HeaderComponent} from "./header/header.component";
-import {TasksComponent} from "./tasks/tasks.component";
 import {UserService} from "./user/user.service";
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet, UserComponent, HeaderComponent, TasksComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
